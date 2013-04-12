@@ -89,3 +89,9 @@ Script pack also exposes an overload:
     TestResult RunAllUnitTests(Action<string> callback, Assembly testAssembly = null)
     
 where you can redirect the test output from Console (default behavior) to anywhere you want.
+
+Script pack imports the following namespaces into your script (no need to do `using` for them):
+
+ - NUnit.Framework
+ - NUnit.Core
+ - System.Reflection
