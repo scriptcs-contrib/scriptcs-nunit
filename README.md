@@ -5,20 +5,11 @@ Script pack for running nunit tests from scriptcs
 
 ## Installation
 
-First prep a `packages.config` file:
+From the folder where you are writing a script, run:
 
-    <?xml version="1.0" encoding="utf-8"?>
-     <packages>
-       <package id="NUnit" version="2.6.2" targetFramework="net45" />
-       <package id="ScriptCs.Contracts" version="0.3.1" targetFramework="net45" />
-       <package id="ScriptCs.NUnit" version="0.5.0" targetFramework="net45" />
-     </packages>
-     
-Then, from the folder where you are writing a script, run:
-
-    scriptcs -install
+    scriptcs -install scriptcs.nunit
     
-This will install `ScriptCs.NUnit` and the necessary dependencies and copy them to a `bin` folder
+This will install `ScriptCs.NUnit` and the necessary dependencies.
 
 ## Usage
 
